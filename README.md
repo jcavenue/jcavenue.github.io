@@ -1,5 +1,5 @@
 # JCAvenue Portfolio
-Version 1.0.0
+**Version 1.0.0**
 
 This is my first ever portfolio designed using:
 * Bootstrap 5
