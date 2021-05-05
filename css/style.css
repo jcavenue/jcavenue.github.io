@@ -42,8 +42,8 @@ footer {
 }
 
 #card:hover {
-	-webkit-animation: heartbeat 1.5s ease-in-out both;
-	animation: heartbeat 1.5s ease-in-out both;
+	-webkit-animation: heartbeat 2s ease-in-out both;
+	animation: heartbeat 2s ease-in-out both;
 }
 
 
