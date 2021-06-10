@@ -10,4 +10,4 @@ This is my first ever portfolio designed using:
 * Google Fonts
 * CSS Styling
 
-You can visit my page to check it out here  [JCAvenue](https://jcavenue.github.io/Portfolio/)
+You can visit my page to check it out here  [JCAvenue](https://jcavenue.herokuapp.com/)
