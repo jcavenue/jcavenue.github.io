@@ -1,8 +1,8 @@
 # JCAvenue Portfolio
-[![GitHub release](https://img.shields.io/github/release/JCAvenue/Portfolio.svg)](https://github.com/JCAvenue/Portfolio/releases/)
-[![GitHub commits](https://img.shields.io/github/commits-since/JCAvenue/Portfolio/v1.0.3.svg)](https://GitHub.com/JCAvenue/Portfolio/commit/)
-![GitHub last commit](https://img.shields.io/github/last-commit/JCAvenue/Portfolio)
-[![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML,%20CSS,%20Bootsrap%205-1f425f.svg)](https://GitHub.com/JCAvenue/Portfolio/)
+[![GitHub release](https://img.shields.io/github/release/jcavenue/Portfolio.svg)](https://github.com/jcavenue/Portfolio/releases/)
+[![GitHub commits](https://img.shields.io/github/commits-since/jcavenue/Portfolio/v1.0.3.svg)](https://GitHub.com/jcavenue/Portfolio/commit/)
+![GitHub last commit](https://img.shields.io/github/last-commit/jcavenue/Portfolio)
+[![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML,%20CSS,%20Bootsrap%205-1f425f.svg)](https://GitHub.com/jcavenue/Portfolio/)
 
 This is my first ever portfolio designed using:
 * Bootstrap 5
