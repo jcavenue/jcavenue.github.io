@@ -1,4 +1,4 @@
-# JCAvenue Portfolio
+# jcavenue Portfolio
 [![GitHub release](https://img.shields.io/github/release/jcavenue/Portfolio.svg)](https://github.com/jcavenue/Portfolio/releases/)
 [![GitHub commits](https://img.shields.io/github/commits-since/jcavenue/Portfolio/v1.0.4.svg)](https://GitHub.com/jcavenue/Portfolio/commit/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jcavenue/Portfolio)
