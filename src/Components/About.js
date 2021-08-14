@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 const About = () => {
 	return (
 		<div>
-			<h1>Hi my name is jc</h1>
+			<h1>About</h1>
 		</div>
 	)
 }

@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { useState } from "react";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Project from "./Components/Project";
+import Contact from "./Components/Contact"
 import Footer from "./Components/Footer";
-import NameContext from "./Components/Context";
 
 
 function App() {
-	const name = useState('John Carlo Fababeir')
+	
   return (
-    <NameContext.Provider value={name}>
+    <div>
 			<Router>
 				<Header />
 				<Switch>
@@ -18,8 +18,10 @@ function App() {
 						<About />
 					</Route>
 					<Route path="/Project">
+						<Project />>
 					</Route>
 					<Route path="/Contact">
+						<Contact />
 					</Route>
 					<Route exact path="/">
 						<Home />
@@ -27,7 +29,7 @@ function App() {
 				</Switch>
 			</Router>
 			<Footer />
-    </NameContext.Provider>
+    </div>
   );
 }
 
