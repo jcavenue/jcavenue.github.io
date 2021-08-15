@@ -19,10 +19,10 @@ export default function Footer() {
 						<MDBIcon fab icon='github' />
 					</MDBBtn>
 				</div>
-				<div className='text-center p-3'>
+				<div className='text-center p-2'>
         &copy; {new Date().getFullYear()} Copyright:{' '}
         <a className='text-dark' target="_blank" rel="noreferrer nofollow" href='https://jcavenue.github.io/'>
-          jcavenue.github.io
+          jcdevs.github.io
         </a>
       </div>
       </MDBContainer>
