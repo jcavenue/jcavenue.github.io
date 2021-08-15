@@ -4,7 +4,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBTypography, MDBBtn } from 'mdb-react-u
 const Home = () => {
 
 	return (
-		<div className='p-5 bg-DDDDDD ' style={{ height: 500,}}>
+		<div className='p-5 bg-DFEEEA ' style={{ height: 500,}}>
 			<MDBContainer>
 				<MDBRow>
 					<MDBCol lg="6" xs="12" className="p-5 text-md-start text-center">

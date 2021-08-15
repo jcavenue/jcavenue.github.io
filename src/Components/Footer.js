@@ -1,39 +1,33 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol} from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBIcon, MDBBtn} from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
-    <MDBFooter backgroundColor='light' className='text-center text-lg-left'>
+    <MDBFooter style={{backgroundColor: 'white'}} className='text-center text-lg-left'>
       <MDBContainer className='p-4'>
-        <MDBRow>
-          <MDBCol lg='6' md='12' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase'>Footer text</h5>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-              Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-              est atque cumque eum delectus sint!
-            </p>
-          </MDBCol>
-
-          <MDBCol lg='6' md='12' className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase'>Footer text</h5>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-              Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-              est atque cumque eum delectus sint!
-            </p>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        <div>
+					<MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='#'>
+						<MDBIcon fab icon='facebook-f' />
+					</MDBBtn>
+					<MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href=''>
+						<MDBIcon fab icon='twitter' />
+					</MDBBtn>
+					<MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='#'>
+						<MDBIcon fab icon='linkedin-in' />
+					</MDBBtn>
+					<MDBBtn className='m-1' style={{ backgroundColor: '#333333' }} href='https://github.com/jcavenue' rel="noreferrer nofollow" target="_blank">
+						<MDBIcon fab icon='github' />
+					</MDBBtn>
+				</div>
+				<div className='text-center p-3'>
         &copy; {new Date().getFullYear()} Copyright:{' '}
         <a className='text-dark' target="_blank" rel="noreferrer nofollow" href='https://jcavenue.github.io/'>
           jcavenue.github.io
         </a>
       </div>
+      </MDBContainer>
+
+      
     </MDBFooter>
   );
 }
