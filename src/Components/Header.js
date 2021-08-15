@@ -19,14 +19,14 @@ export default function Header() {
 		<header>
 			<MDBNavbar expand='md' light bgColor='light' className="p-3" >
 				<MDBContainer fluid>
-					<MDBNavbarBrand tag="span" className='m-auto mb-0 h1'>JCDEVS</MDBNavbarBrand>
+					<MDBNavbarBrand tag="span" className=' mb-0 h1'>JCDEVS</MDBNavbarBrand>
 					<MDBNavbarToggler
 						type='button'
 						aria-expanded='false'
 						aria-label='Toggle navigation'
-						onClick={() => setShowNav(!showNav)}
+						onClick={() => setShowNav(!showNav)}f
 					>
-						<MDBIcon icon='bars' fas />
+						<MDBIcon icon={showNav === false ? 'bars': "angle-up"} fas />
 					</MDBNavbarToggler>
 					<MDBCollapse navbar show={showNav}>
 						<MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>

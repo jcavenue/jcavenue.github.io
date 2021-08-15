@@ -19,7 +19,7 @@ const Home = () => {
 						</p>
 						<p>
 							<Link to="/Project">
-								<MDBBtn color='success'>Click Here</MDBBtn>
+								<MDBBtn rounded color='success'>Click Here</MDBBtn>
 							</Link>
 						</p>
 					</MDBCol>
