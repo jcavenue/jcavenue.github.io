@@ -5,26 +5,24 @@ import ads1 from '../Assets/img/ads1.png'
 const Home = () => {
 
 	return (
-		<div className='p-0 pt-4 p-sm-4  bg-DFEEEA'>
+		<div className='pt-md-5 px-lg-5 bg-DFEEEA'>
 			<MDBContainer>
 				<MDBRow>
-					<MDBCol lg="5" xs="12" className="p-0 p-sm-4 text-lg-start text-center">
+					<MDBCol lg="5" xs="12" className="p-0 pt-5 pb-3 text-lg-start text-center">
 						<MDBTypography variant='h1' className="display-5">Hey! I'm JC</MDBTypography>
 						<p className="fst-italic fs-5 mb-4"> Front-end Developer</p>
-						<p className="fs-4 mb-3">
+						<p className="fs-3 mb-3">
 							Building and Creating <br/>
 							User-friendly Website
 						</p>
+						<p>Want to know more about me?</p>
 						<p>
-							Want to know more about me?
-						</p>
-						<p>
-							<Link to="/Project">
+							<Link to="/About">
 								<MDBBtn rounded color='success'>Click Here</MDBBtn>
 							</Link>
 						</p>
 					</MDBCol>
-					<MDBCol lg="7" sm="12" className='p-0 p-sm-5'>
+					<MDBCol lg="7" sm="12" className='p-0'>
 						<img src={ads1} className='img-fluid' alt='...' />
 					</MDBCol>
 				</MDBRow>
