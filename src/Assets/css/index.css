@@ -9,5 +9,6 @@ header {
 }
 
 .bg-DFEEEA {
-	background-color: #DFEEEA;
+background: rgb(29,195,253);
+background: linear-gradient(90deg, rgba(29,195,253,1) 3%, rgba(69,214,252,1) 48%, rgba(9,239,244,1) 97%);
 }

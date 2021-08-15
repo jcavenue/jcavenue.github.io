@@ -9,7 +9,7 @@ const Home = () => {
 			<MDBContainer>
 				<MDBRow>
 					<MDBCol lg="5" xs="12" className="p-0 pt-5 pb-3 text-lg-start text-center">
-						<MDBTypography variant='h1' className="display-5">Hey! I'm JC</MDBTypography>
+						<MDBTypography variant='h1' >Hey! I'm JC</MDBTypography>
 						<p className="fst-italic fs-5 mb-4"> Front-end Developer</p>
 						<p className="fs-3 mb-3">
 							Building and Creating <br/>
@@ -28,7 +28,6 @@ const Home = () => {
 				</MDBRow>
 			</MDBContainer>
     </div>
-		
 	)
 }
 
