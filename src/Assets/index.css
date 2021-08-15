@@ -6,3 +6,7 @@ header {
 	position: sticky;
 	top: 0;
 }
+
+.bg-DDDDDD {
+	background-color: #DDDDDD;
+}
