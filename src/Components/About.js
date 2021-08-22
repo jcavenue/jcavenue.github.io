@@ -1,9 +1,12 @@
 import { withRouter } from "react-router-dom";
+import { MDBContainer } from "mdb-react-ui-kit";
 
 const About = () => {
 	return (
 		<div>
-			<h1>About</h1>
+			<MDBContainer>
+				
+			</MDBContainer>
 		</div>
 	)
 }
