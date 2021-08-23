@@ -26,8 +26,6 @@ export default function Footer() {
         </a>
       </div>
       </MDBContainer>
-
-      
     </MDBFooter>
   );
 }

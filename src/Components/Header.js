@@ -46,7 +46,6 @@ export default function Header() {
 					</MDBCollapse>
 				</MDBContainer>
 			</MDBNavbar>
-			
 		</header>
   );
 }
