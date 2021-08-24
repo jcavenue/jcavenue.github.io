@@ -1,11 +1,11 @@
 import { withRouter, Link } from "react-router-dom";
 import { MDBContainer, MDBRow, MDBCol, MDBTypography, MDBBtn } from 'mdb-react-ui-kit';
-import ads1 from '../Assets/img/ads1.png'
+import HomeBG from '../Assets/img/HomeBg.png'
 
 const Home = () => {
 
 	return (
-		<div className='pt-md-5 px-lg-5 bg-DFEEEA'>
+		<div className='pt-md-5 px-lg-5 '>
 			<MDBContainer>
 				<MDBRow>
 					<MDBCol lg="5" xs="12" className="p-0 pt-5 pb-3 text-lg-start text-center">
@@ -23,7 +23,7 @@ const Home = () => {
 						</p>
 					</MDBCol>
 					<MDBCol lg="7" sm="12" className='p-0'>
-						<img src={ads1} className='img-fluid' alt='...' />
+						<img src={HomeBG} className='img-fluid' alt='...' />
 					</MDBCol>
 				</MDBRow>
 			</MDBContainer>

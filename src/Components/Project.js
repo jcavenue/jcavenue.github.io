@@ -14,22 +14,22 @@ const Project = () => {
 
 	return (
 		<>
-			<div className="bg-DFEEEA shadow-4">
-				<MDBContainer className="py-5 bg-DFEEEA">
-					<section className="mt-2">
-						<h1>Personal Projects</h1>
-						<p className="pb-4 fw-light">All of the project here were the outcome of what I learned from being a self taught developer <br/>
-							and to state what can I do with my current skills.
-						</p>
-					</section>
-				</MDBContainer>
-			</div>
-			<MDBContainer className="pt-4 mt-4">
+		
+			<MDBContainer className="py-5 ">
+				<section className="mt-2">
+					<h1 className='text-success'>Personal Projects</h1>
+					<p className="pb-4 fw-light">All of the project here were the outcome of what I learned from being a self taught developer <br/>
+						and to state what can I do with my current skills.
+					</p>
+				</section>
+				<hr/>
+			</MDBContainer>
+			<MDBContainer className="mt-4">
 				<MDBBreadcrumb>
           <MDBBreadcrumbItem>
             <Link to="/">Home</Link>
           </MDBBreadcrumbItem>
-          <MDBBreadcrumbItem active>Project</MDBBreadcrumbItem>
+          <MDBBreadcrumbItem active>Projects</MDBBreadcrumbItem>
         </MDBBreadcrumb>
 				<section >
 					{
