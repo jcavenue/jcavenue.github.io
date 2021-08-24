@@ -1,4 +1,4 @@
-import { MDBRow, MDBCol, MDBBadge, MDBBtn} from "mdb-react-ui-kit";
+import { MDBRow, MDBCol, MDBBadge, MDBBtn, MDBIcon} from "mdb-react-ui-kit";
 
 const ProjectDetails = (({Project}) => {
 	return (
@@ -16,14 +16,14 @@ const ProjectDetails = (({Project}) => {
 					{
 						Project.Tools.map(Language => {
 							return (
-								<MDBBadge  className="mx-1">{Language}</MDBBadge>
+								<MDBBadge color="info" className="mx-1 fw-light">{Language}</MDBBadge>
 							);
 						})
 					}
 				</p>
 				<p className="fw-normal">{Project.Description}</p>
 				<div className="align-self-end mt-1">
-					<MDBBtn rounded color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website</MDBBtn>
+					<MDBBtn rounded color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website<MDBIcon fas icon="external-link-alt" className="p-1"/></MDBBtn>
 				</div>						
 			</MDBCol>
 		</MDBRow>				

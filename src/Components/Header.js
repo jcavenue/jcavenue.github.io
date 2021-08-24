@@ -31,16 +31,16 @@ export default function Header() {
 					<MDBCollapse navbar show={showNav}>
 						<MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/' >Home</MDBNavbarLink>
+								<MDBNavbarLink tag={Link} to='/' ><MDBIcon fas icon="home" /> Home</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/Project'>Project</MDBNavbarLink>
+								<MDBNavbarLink tag={Link} to='/Project'><MDBIcon fas icon="award" /> Project</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/About'>About</MDBNavbarLink>
+								<MDBNavbarLink tag={Link} to='/About'><MDBIcon fas icon="user-alt" /> About</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/Contact'>Contact</MDBNavbarLink>
+								<MDBNavbarLink tag={Link} to='/Contact'><MDBIcon fas icon="address-book" /> Contact</MDBNavbarLink>
 							</MDBNavbarItem>
 						</MDBNavbarNav>
 					</MDBCollapse>

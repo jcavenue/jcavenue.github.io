@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import ProjectApi from "./ProjectApi";
 import ProjectDetails from "./ProjectDetails";
 import { 
 	MDBContainer,
+	MDBBreadcrumb,
+	MDBBreadcrumbItem
 	} from "mdb-react-ui-kit";
 
 
@@ -23,6 +25,12 @@ const Project = () => {
 				</MDBContainer>
 			</div>
 			<MDBContainer className="pt-4 mt-4">
+				<MDBBreadcrumb>
+          <MDBBreadcrumbItem>
+            <Link to="/">Home</Link>
+          </MDBBreadcrumbItem>
+          <MDBBreadcrumbItem active>Project</MDBBreadcrumbItem>
+        </MDBBreadcrumb>
 				<section >
 					{
 						project.map((projects) => {
