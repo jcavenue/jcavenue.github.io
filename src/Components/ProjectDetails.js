@@ -23,7 +23,7 @@ const ProjectDetails = (({Project}) => {
 				</p>
 				<p className="fw-normal">{Project.Description}</p>
 				<div className="align-self-end mt-1">
-					<MDBBtn color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website</MDBBtn>
+					<MDBBtn rounded color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website</MDBBtn>
 				</div>						
 			</MDBCol>
 		</MDBRow>				
