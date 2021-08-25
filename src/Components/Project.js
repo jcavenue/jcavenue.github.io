@@ -39,7 +39,7 @@ const Project = () => {
 							);
 						})
 					}
-					<hr />
+					<hr className="mt-5"/>
 				</section>
 			</MDBContainer>
 		</>
