@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {
   MDBContainer,
   MDBNavbar,
@@ -31,16 +31,16 @@ export default function Header() {
 					<MDBCollapse navbar show={showNav}>
 						<MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0'>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/' ><MDBIcon fas icon="home" /> Home</MDBNavbarLink>
+								<MDBNavbarLink active={false} tag={NavLink} exact to='/' ><MDBIcon fas icon="home" /> Home</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/Project'><MDBIcon fas icon="award" /> Project</MDBNavbarLink>
+								<MDBNavbarLink active={false} tag={NavLink} exact to='/Project'><MDBIcon fas icon="award" /> Project</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/About'><MDBIcon fas icon="user-alt" /> About</MDBNavbarLink>
+								<MDBNavbarLink active={false} tag={NavLink} exact to='/About'><MDBIcon fas icon="user-alt" /> About</MDBNavbarLink>
 							</MDBNavbarItem>
 							<MDBNavbarItem>
-								<MDBNavbarLink tag={Link} to='/Contact'><MDBIcon fas icon="address-book" /> Contact</MDBNavbarLink>
+								<MDBNavbarLink active={false} tag={NavLink} exact to='/Contact'><MDBIcon fas icon="address-book" /> Contact</MDBNavbarLink>
 							</MDBNavbarItem>
 						</MDBNavbarNav>
 					</MDBCollapse>
