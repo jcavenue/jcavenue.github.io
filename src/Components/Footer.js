@@ -20,10 +20,10 @@ export default function Footer() {
 					</MDBBtn>
 				</div>
 				<div className='text-center p-2' >
-        &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-dark' target="_blank" rel="noreferrer nofollow" href='https://jcavenue.github.io/'>
-          jcdevs.github.io
-        </a>
+					&copy; {new Date().getFullYear()} Copyright:{' '}
+					<a className='text-dark' target="_blank" rel="noreferrer nofollow" href='https://jcavenue.github.io/'>
+						jcdevs.github.io
+					</a>
       </div>
       </MDBContainer>
     </MDBFooter>
