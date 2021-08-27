@@ -7,27 +7,19 @@ import Contact from "./Components/Contact"
 import Footer from "./Components/Footer";
 
 const App = () => {	
-  return (
-    <div>
+	return (
+    <>
 			<Router>
 				<Header />
 				<Switch>
-					<Route path="/About">
-						<About />
-					</Route>
-					<Route path="/Project">
-						<Project />
-					</Route>
-					<Route path="/Contact">
-						<Contact />
-					</Route>
-					<Route exact path="/">
-						<Home />
-					</Route>
+					<Route path="/About" component={About} />
+					<Route path="/Project" component={Project} />
+					<Route path="/Contact" component={Contact} />
+					<Route exact path="/" component={Home}/>
 				</Switch>
 			</Router>
 			<Footer />
-    </div>
+    </>
   );
 }
 
