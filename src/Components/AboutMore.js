@@ -4,21 +4,21 @@ const AboutMore = () => {
 	return (
 		<>
 			<MDBContainer className="my-5">
-				<MDBRow className="p-5">
-					<MDBCol md="6" className=" text-start fw-bold">
+				<MDBRow className="py-5">
+					<MDBCol md="6" className="text-center  fw-bold">
 						<MDBTypography variant='h3'>Education</MDBTypography>
 					</MDBCol>
-					<MDBCol md="6" className="pb-3 mt-5 mt-sm-0 text-start">
-						<h5 className="fw-bold">ASIAN INSTITUTE OF COMPUTER STUDIES</h5>
-						<p>BS Computer Science 2019 - Present</p>
+					<MDBCol md="6" className="pb-3 mt-5 mt-sm-0 text-center text-sm-start">
+							<h5 className="fw-bold">ASIAN INSTITUTE OF COMPUTER STUDIES</h5>
+							<p>BS Computer Science 2019 - Present</p>
 					</MDBCol>
 					<hr/>
-					<MDBCol md="6" className="mt-5 text-start fw-bold">
+					<MDBCol md="6" className="mt-5 text-center fw-bold">
 						<MDBTypography variant='h3'>Work</MDBTypography>
 						<MDBTypography variant='h3'>Experience</MDBTypography>
 					</MDBCol>
 					<MDBCol md="6" className="mt-5 text-start">
-						<MDBAccordion initialActive='accordionCollapse1'>
+						<MDBAccordion initialActive='accordionCollapse1' className="shadow-4">
 							<MDBAccordionItem collapseId='accordionCollapse1' headerTitle='Assistant Graphic Designer'>
 								<p className="fw-bold">Kent Graphic Solution</p>
 								<p className="fst-italic">October 2018 - March 2019</p> 
@@ -48,19 +48,19 @@ const AboutMore = () => {
 					</MDBCol>
 				</MDBRow>
 				<hr/>
-				<MDBRow className="pt-5">
-					<MDBCol xs="12" md="7" className="px-5">
-						<MDBTypography variant='h3' className="pb-3">Trainings and Certificate</MDBTypography>
-						<MDBListGroup>
-							<MDBListGroupItem tag='a' target="_blank" href='https://www.coursera.org/account/accomplishments/specialization/certificate/3ZYGPNC72GE3'>PostgreSQL for Everybody Specialization</MDBListGroupItem>
-							<MDBListGroupItem tag='a' target="_blank" href='https://www.coursera.org/account/accomplishments/specialization/certificate/WJXSQCTL436W'>Web Application for Everybody Specialization</MDBListGroupItem>
-							<MDBListGroupItem tag='a' target="_blank" href='https://www.coursera.org/account/accomplishments/certificate/CBHFKKE8HL56'>Version Control with Git</MDBListGroupItem>
-							<MDBListGroupItem tag='a' target="_blank" href='https://www.coursera.org/account/accomplishments/certificate/RUHW9MK5782D'>Front-End Web UI Frameworks and Tools: Bootstrap 4</MDBListGroupItem>
-							<MDBListGroupItem tag='a' target="_blank" href='https://www.futurelearn.com/certificates/geih6gx'>IT ETHICS: Professionalism and Ethics in Computing</MDBListGroupItem>
+				<MDBRow className="py-5">
+					<MDBCol xs="12" md="6" className="px-5">
+						<MDBTypography variant='h3' className="pb-3 text-center">Trainings and Certificate</MDBTypography>
+						<MDBListGroup className="shadow-4">
+							<MDBListGroupItem tag='a' target="_blank" rel="noreferrer nofollow" href='https://www.coursera.org/account/accomplishments/specialization/certificate/3ZYGPNC72GE3'>PostgreSQL for Everybody Specialization</MDBListGroupItem>
+							<MDBListGroupItem tag='a' target="_blank" rel="noreferrer nofollow" href='https://www.coursera.org/account/accomplishments/specialization/certificate/WJXSQCTL436W'>Web Application for Everybody Specialization</MDBListGroupItem>
+							<MDBListGroupItem tag='a' target="_blank" rel="noreferrer nofollow" href='https://www.coursera.org/account/accomplishments/certificate/CBHFKKE8HL56'>Version Control with Git</MDBListGroupItem>
+							<MDBListGroupItem tag='a' target="_blank" rel="noreferrer nofollow" href='https://www.coursera.org/account/accomplishments/certificate/RUHW9MK5782D'>Front-End Web UI Frameworks and Tools: Bootstrap 4</MDBListGroupItem>
+							<MDBListGroupItem tag='a' target="_blank" rel="noreferrer nofollow" href='https://www.futurelearn.com/certificates/geih6gx'>IT ETHICS: Professionalism and Ethics in Computing</MDBListGroupItem>
 						</MDBListGroup>
 					</MDBCol >
-					<MDBCol xs="12" md="5" className="mt-5 mt-md-0 px-3">
-						<MDBTypography variant='h3' className="pb-3 ">Programming & Tools</MDBTypography>
+					<MDBCol xs="12" md="6" className="mt-5 mt-md-0 px-5">
+						<MDBTypography variant='h3' className="pb-3 text-center ">Programming & Tools</MDBTypography>
 						<ul>
 							<li>HTML</li>
 							<li>CSS</li>
@@ -72,6 +72,10 @@ const AboutMore = () => {
 							<li>MySQL</li>
 						</ul>
 					</MDBCol>
+				</MDBRow>
+				<hr/>
+				<MDBRow>
+
 				</MDBRow>
 			</MDBContainer>
 
