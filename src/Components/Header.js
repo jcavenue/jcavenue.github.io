@@ -19,7 +19,7 @@ export default function Header() {
 		<header>
 			<MDBNavbar expand='md' light bgColor='light' className="p-3" >
 				<MDBContainer fluid>
-					<MDBNavbarBrand tag="span" className=' mb-0 h1'>JCDEVS</MDBNavbarBrand>
+					<MDBNavbarBrand tag="span" className=' mb-0 h1'>JCAVENUE</MDBNavbarBrand>
 					<MDBNavbarToggler
 						type='button'
 						aria-expanded='false'

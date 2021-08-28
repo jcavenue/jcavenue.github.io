@@ -1,4 +1,4 @@
-import { MDBRow, MDBCol, MDBBadge, MDBBtn, MDBIcon} from "mdb-react-ui-kit";
+import { MDBRow, MDBCol, MDBBadge, MDBTypography, MDBBtn, MDBIcon} from "mdb-react-ui-kit";
 
 
 const ProjectDetails = (({Project}) => {
@@ -11,7 +11,7 @@ const ProjectDetails = (({Project}) => {
 				</div>
 			</MDBCol>	
 			<MDBCol md="12" lg="7"className="px-4 pt-4 pt-sm-2">
-				<h3>{Project.Project}</h3>
+				<MDBTypography variant='h3' className="fw-bold text-center text-md-start">{Project.Project}</MDBTypography>
 				<p className="fst-italic fs-6">{Project.Create}</p>
 				<p>
 					{
@@ -22,9 +22,9 @@ const ProjectDetails = (({Project}) => {
 						})
 					}
 				</p>
-				<p className="fw-normal">{Project.Description}</p>
+				<p className="lh-base fw-normal">{Project.Description}</p>
 				<div className="align-self-end mt-1">
-					<MDBBtn rounded color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website<MDBIcon fas icon="external-link-alt" className="p-1"/></MDBBtn>
+					<MDBBtn color="success" href={Project.Link} rel="noreferrer nofollow" target="_blank">Visit Website<MDBIcon fas icon="external-link-alt" className="p-1"/></MDBBtn>
 				</div>						
 			</MDBCol>
 		</MDBRow>				

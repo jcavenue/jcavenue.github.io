@@ -5,7 +5,8 @@ import ProjectDetails from "./ProjectDetails";
 import { 
 	MDBContainer,
 	MDBBreadcrumb,
-	MDBBreadcrumbItem
+	MDBBreadcrumbItem,
+	MDBTypography
 	} from "mdb-react-ui-kit";
 
 
@@ -17,8 +18,8 @@ const Project = () => {
 		
 			<MDBContainer className="py-5 ">
 				<section className="mt-2">
-					<h1 className='text-success'>Personal Projects</h1>
-					<p className="pb-4 fw-light">All of the project here were the outcome of what I learned from being a self taught developer and to state what can I do with my current skills.
+					<MDBTypography variant='h1' className="fw-bold text-center text-md-start">Personal Projects</MDBTypography>
+					<p className="pb-4 lh-base fw-normal">All of the project here were the outcome of what I learned from being a self taught developer and to state what can I do with my current skills.
 					</p>
 				</section>
 				<hr/>
