@@ -18,8 +18,7 @@ const Project = () => {
 			<MDBContainer className="py-5 ">
 				<section className="mt-2">
 					<h1 className='text-success'>Personal Projects</h1>
-					<p className="pb-4 fw-light">All of the project here were the outcome of what I learned from being a self taught developer <br/>
-						and to state what can I do with my current skills.
+					<p className="pb-4 fw-light">All of the project here were the outcome of what I learned from being a self taught developer and to state what can I do with my current skills.
 					</p>
 				</section>
 				<hr/>

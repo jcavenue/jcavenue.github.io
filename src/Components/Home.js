@@ -1,6 +1,6 @@
 import { withRouter, Link } from "react-router-dom";
 import { MDBContainer, MDBRow, MDBCol, MDBTypography, MDBBtn } from 'mdb-react-ui-kit';
-import HomeBG from '../Assets/img/HomeBg.png'
+import HomeBG from '../Assets/img/HomeBg.svg'
 
 const Home = () => {
 
@@ -26,7 +26,7 @@ const Home = () => {
 					</MDBCol>
 					<MDBCol lg="7" sm="12" className='p-0'>
 						<img src={HomeBG} className='img-fluid' alt='...' />
-					</MDBCol>
+					</MDBCol> 
 				</MDBRow>
 			</MDBContainer>
 	)
