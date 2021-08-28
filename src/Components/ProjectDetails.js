@@ -11,7 +11,7 @@ const ProjectDetails = (({Project}) => {
 				</div>
 			</MDBCol>	
 			<MDBCol md="12" lg="7"className="px-4 pt-4 pt-sm-2">
-				<MDBTypography variant='h3' className="fw-bold text-center text-md-start">{Project.Project}</MDBTypography>
+				<MDBTypography variant='h3' className="fw-bold text-start">{Project.Project}</MDBTypography>
 				<p className="fst-italic fs-6">{Project.Create}</p>
 				<p>
 					{
