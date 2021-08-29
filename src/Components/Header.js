@@ -11,6 +11,7 @@ import {
   MDBCollapse,
 	MDBIcon
 } from 'mdb-react-ui-kit';
+import Logo from "../Assets/img/favicon.png";
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
@@ -18,8 +19,16 @@ export default function Header() {
   return (
 		<header>
 			<MDBNavbar expand='md' light bgColor='light' className="p-3" >
-				<MDBContainer fluid>
-					<MDBNavbarBrand tag="span"><Link to="/" className="text-decoration-none">JCAVENUE</Link></MDBNavbarBrand>
+				<MDBContainer >
+					<MDBNavbarBrand tag={Link} to="/" className="fw-bold">
+            <img
+              src={Logo}
+              height='30'
+              alt=''
+              loading='lazy'
+            />
+						JCAVENUE
+          </MDBNavbarBrand>
 					<MDBNavbarToggler
 						type='button'
 						aria-expanded='false'
