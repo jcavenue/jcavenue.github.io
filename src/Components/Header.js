@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import {
   MDBContainer,
   MDBNavbar,
@@ -19,7 +19,7 @@ export default function Header() {
 		<header>
 			<MDBNavbar expand='md' light bgColor='light' className="p-3" >
 				<MDBContainer fluid>
-					<MDBNavbarBrand tag="span" className=' mb-0 h1'>JCAVENUE</MDBNavbarBrand>
+					<MDBNavbarBrand tag="span"><Link to="/" className="text-decoration-none">JCAVENUE</Link></MDBNavbarBrand>
 					<MDBNavbarToggler
 						type='button'
 						aria-expanded='false'
