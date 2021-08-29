@@ -20,7 +20,11 @@ const AboutFeature = () => {
 										Contact me
 									</MDBBtn>
 								</Link>
-								
+								<Link to="/Project">
+									<MDBBtn  color='dark'>
+										Project
+									</MDBBtn>
+								</Link>
 							</div>
 							
 							<p className="lh-base fw-normal text-center text-md-start">
