@@ -34,8 +34,8 @@ const Contact = () => {
 						</MDBBreadcrumbItem>
 						<MDBBreadcrumbItem active>Contact</MDBBreadcrumbItem>
 					</MDBBreadcrumb>
-					<MDBCol md="4" className="mt-3">
-						<MDBCard alignment='center'>
+					<MDBCol lg="4" className="mt-3">
+						<MDBCard alignment='center' className="shadow-0 square border">
 							<MDBCardBody>
 								<MDBIcon fas icon="phone-alt" size="3x" className="pb-3"/>
 								<MDBCardTitle>+63 963 3218 452</MDBCardTitle>
@@ -44,8 +44,8 @@ const Contact = () => {
 							</MDBCardBody>
 						</MDBCard>
 					</MDBCol>
-					<MDBCol md="4" className="mt-3">
-						<MDBCard alignment='center'>
+					<MDBCol lg="4" className="mt-3">
+						<MDBCard alignment='center' className="shadow-0 square border">
 							<MDBCardBody>
 								<MDBIcon fas icon="at" size="3x" className="pb-3"/>
 								<MDBCardTitle>jcfababeir30@gmail.com</MDBCardTitle>
@@ -55,8 +55,8 @@ const Contact = () => {
 							
 						</MDBCard>
 					</MDBCol>
-					<MDBCol md="4" className="mt-3">
-						<MDBCard alignment='center'>
+					<MDBCol lg="4" className="mt-3">
+						<MDBCard alignment='center' className="shadow-0 square border">
 							<MDBCardBody>
 								<MDBIcon fab icon="telegram" size="3x" className="pb-3"/>
 								<MDBCardTitle>t.me/jcavenue</MDBCardTitle>

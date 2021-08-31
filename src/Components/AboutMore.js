@@ -1,4 +1,13 @@
-import { MDBContainer, MDBRow, MDBCol, MDBAccordion, MDBAccordionItem, MDBTypography, MDBListGroup, MDBListGroupItem } from "mdb-react-ui-kit";
+import { 
+	MDBContainer, 
+	MDBRow, 
+	MDBCol, 
+	MDBAccordion, 
+	MDBAccordionItem, 
+	MDBTypography, 
+	MDBListGroup, 
+	MDBListGroupItem 
+	} from "mdb-react-ui-kit";
 
 const AboutMore = () => {
 	return (
@@ -74,9 +83,6 @@ const AboutMore = () => {
 					</MDBCol>
 				</MDBRow>
 				<hr/>
-				<MDBRow>
-
-				</MDBRow>
 			</MDBContainer>
 
 		</>

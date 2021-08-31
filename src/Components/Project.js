@@ -27,7 +27,7 @@ const Project = () => {
 				</section>
 				<hr/>
 			</MDBContainer>
-			<MDBContainer className="mt-4">
+			<MDBContainer>
 				<MDBBreadcrumb>
           <MDBBreadcrumbItem>
             <Link to="/">Home</Link>
