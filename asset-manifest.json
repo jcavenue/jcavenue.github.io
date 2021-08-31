@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.897b3846.chunk.css",
+    "main.js": "/static/js/main.c36ce24d.chunk.js",
+    "main.js.map": "/static/js/main.c36ce24d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f636f5c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f636f5c4.js.map",
+    "static/css/2.a5f88754.chunk.css": "/static/css/2.a5f88754.chunk.css",
+    "static/js/2.87cbc6f9.chunk.js": "/static/js/2.87cbc6f9.chunk.js",
+    "static/js/2.87cbc6f9.chunk.js.map": "/static/js/2.87cbc6f9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a5f88754.chunk.css.map": "/static/css/2.a5f88754.chunk.css.map",
+    "static/css/main.897b3846.chunk.css.map": "/static/css/main.897b3846.chunk.css.map",
+    "static/js/2.87cbc6f9.chunk.js.LICENSE.txt": "/static/js/2.87cbc6f9.chunk.js.LICENSE.txt",
+    "static/media/AboutBG_1.28b09049.png": "/static/media/AboutBG_1.28b09049.png",
+    "static/media/About_RowCol1_BG.dc73fd90.png": "/static/media/About_RowCol1_BG.dc73fd90.png",
+    "static/media/HomeBg.f7f4ac58.svg": "/static/media/HomeBg.f7f4ac58.svg",
+    "static/media/Website_1.ef459a2b.png": "/static/media/Website_1.ef459a2b.png",
+    "static/media/Website_2.bbc62f32.png": "/static/media/Website_2.bbc62f32.png",
+    "static/media/Website_3.16ae6f19.png": "/static/media/Website_3.16ae6f19.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f636f5c4.js",
+    "static/css/2.a5f88754.chunk.css",
+    "static/js/2.87cbc6f9.chunk.js",
+    "static/css/main.897b3846.chunk.css",
+    "static/js/main.c36ce24d.chunk.js"
+  ]
+}
