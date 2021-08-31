@@ -15,7 +15,6 @@ const Project = () => {
 
 	return (
 		<>
-		
 			<MDBContainer className="py-5 ">
 				<section className="mt-2">
 					<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start">Personal Projects</MDBTypography>
