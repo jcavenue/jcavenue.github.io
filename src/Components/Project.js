@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { withRouter, Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import ProjectApi from "./ProjectApi";
 import ProjectDetails from "./ProjectDetails";
 import { 
@@ -15,6 +16,9 @@ const Project = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>jcavenue | Project</title>
+			</Helmet>
 			<MDBContainer className="py-5 ">
 				<section className="mt-2">
 					<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start">Personal Projects</MDBTypography>
