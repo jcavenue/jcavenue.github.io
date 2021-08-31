@@ -1,6 +1,7 @@
 import { MDBFooter, MDBContainer, MDBIcon, MDBBtn} from 'mdb-react-ui-kit';
 
 export default function Footer() {
+
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-left'>
       <MDBContainer className='p-4'>
