@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { withRouter, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import ProjectApi from "./ProjectApi";
@@ -12,7 +11,6 @@ import {
 
 
 const Project = () => {
-	const [project] = useState(ProjectApi);
 
 	return (
 		<>
@@ -36,7 +34,7 @@ const Project = () => {
         </MDBBreadcrumb>
 				<section >
 					{
-						project.map((projects) => {
+						ProjectApi.map((projects) => {
 								return (
 									<ProjectDetails key={projects} Project={projects}/>
 							);
