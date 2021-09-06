@@ -60,7 +60,7 @@ const Contact = () => {
 							<MDBCardBody>
 								<MDBIcon fab icon="telegram" size="3x" className="pb-3"/>
 								<MDBCardTitle>t.me/jcavenue</MDBCardTitle>
-								<MDBCardText>Message me on Telagram</MDBCardText>
+								<MDBCardText>Message me on Telegram</MDBCardText>
 								<MDBBtn color="success" target="_blank" href='https://t.me/jcavenue'>MESSAGE</MDBBtn>
 							</MDBCardBody>
 							
