@@ -32,4 +32,34 @@ const ProjectApi = [
 	},
 ];
 
-export default ProjectApi;
+const ContactApi = [
+	{
+		Id: 1,
+		Icon: "phone-alt",
+		ContactTitle: "+63 963 3218 452",
+		Description: "Call me directly",
+		Link: "tel:+63 963 3218 452",
+		LinkText: "Call me directly"
+	},
+	{
+		Id: 2,
+		Icon: "at",
+		ContactTitle: "jcfababeir30@gmail.com",
+		Description: "Send me an email",
+		Link: "mailto:jcfababeir30@gmail.com",
+		LinkText: "EMAIL"
+	},
+	{
+		Id: 3,
+		Icon: "telegram",
+		ContactTitle: "t.me/jcavenue",
+		Description: "Message me on Telegram",
+		Link: "https://t.me/jcavenue",
+		LinkText: "MESSAGE"
+	}
+]
+
+export {
+	ProjectApi,
+	ContactApi
+}

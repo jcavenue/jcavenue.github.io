@@ -1,5 +1,6 @@
 import { withRouter, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { ContactApi } from "./PersonalApi";
 import {
 		MDBContainer,
 		MDBTypography,
@@ -34,45 +35,27 @@ const Contact = () => {
 						</MDBBreadcrumbItem>
 						<MDBBreadcrumbItem active>Contact</MDBBreadcrumbItem>
 					</MDBBreadcrumb>
-					<MDBCol lg="4" className="mt-3">
-						<MDBCard alignment='center' className="shadow-0 square border">
-							<MDBCardBody>
-								<MDBIcon fas icon="phone-alt" size="3x" className="pb-3"/>
-								<MDBCardTitle>+63 963 3218 452</MDBCardTitle>
-								<MDBCardText>Call me directly</MDBCardText>
-								<MDBBtn color="success" href='tel:+63 963 3218 452'>CALL</MDBBtn>
-							</MDBCardBody>
-						</MDBCard>
-					</MDBCol>
-					<MDBCol lg="4" className="mt-3">
-						<MDBCard alignment='center' className="shadow-0 square border">
-							<MDBCardBody>
-								<MDBIcon fas icon="at" size="3x" className="pb-3"/>
-								<MDBCardTitle>jcfababeir30@gmail.com</MDBCardTitle>
-								<MDBCardText>Send me an email</MDBCardText>
-								<MDBBtn color="success" href='mailto:jcfababeir30@gmail.com'>EMAIL</MDBBtn>
-							</MDBCardBody>
-							
-						</MDBCard>
-					</MDBCol>
-					<MDBCol lg="4" className="mt-3">
-						<MDBCard alignment='center' className="shadow-0 square border">
-							<MDBCardBody>
-								<MDBIcon fab icon="telegram" size="3x" className="pb-3"/>
-								<MDBCardTitle>t.me/jcavenue</MDBCardTitle>
-								<MDBCardText>Message me on Telegram</MDBCardText>
-								<MDBBtn color="success" target="_blank" href='https://t.me/jcavenue'>MESSAGE</MDBBtn>
-							</MDBCardBody>
-							
-						</MDBCard>
-					</MDBCol>
+					{
+						ContactApi.map(contact =>  {
+							return (
+								<MDBCol lg="4" className="mt-3">
+									<MDBCard alignment='center' key={contact.Id} className="shadow-0 square border">
+										<MDBCardBody>
+											<MDBIcon fab icon={contact.Icon} size="3x" className="pb-3"/>
+											<MDBCardTitle>{contact.ContactTitle}</MDBCardTitle>
+											<MDBCardText>{contact.Description}</MDBCardText>
+											<MDBBtn color="success" target="_blank" href={contact.Link}>{contact.LinkText}</MDBBtn>
+										</MDBCardBody>
+									</MDBCard>
+								</MDBCol>
+								)
+							}
+						)
+					}
 				</MDBRow>
-				<p className="pt-4 lh-base fw-normal text-center">
-						or follow my social media below.
-					</p>
+				<p className="pt-4 lh-base fw-normal text-center">or follow my social media below.</p>
 			</MDBContainer>
 		</>
-		
 	)
 }
 

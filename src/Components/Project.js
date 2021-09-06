@@ -1,6 +1,6 @@
 import { withRouter, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import ProjectApi from "./ProjectApi";
+import { ProjectApi } from "./PersonalApi";
 import ProjectDetails from "./ProjectDetails";
 import { 
 	MDBContainer,
