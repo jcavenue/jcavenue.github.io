@@ -41,8 +41,8 @@ const Contact = () => {
 								<MDBCol lg="4" className="mt-3">
 									<MDBCard alignment='center' key={contact.Id} className="shadow-0 square border">
 										<MDBCardBody>
-											<MDBIcon fab icon={contact.Icon} size="3x" className="pb-3"/>
-											<MDBCardTitle>{contact.ContactTitle}</MDBCardTitle>
+											<MDBIcon fab icon={contact.Icon} size="3x" className={`${contact.IconType}`}/>
+											<MDBCardTitle className="pt-3">{contact.ContactTitle}</MDBCardTitle>
 											<MDBCardText>{contact.Description}</MDBCardText>
 											<MDBBtn color="success" target="_blank" href={contact.Link}>{contact.LinkText}</MDBBtn>
 										</MDBCardBody>

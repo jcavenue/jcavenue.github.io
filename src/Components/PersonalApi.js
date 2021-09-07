@@ -36,6 +36,7 @@ const ContactApi = [
 	{
 		Id: 1,
 		Icon: "phone-alt",
+		IconType: "fas",
 		ContactTitle: "+63 963 3218 452",
 		Description: "Call me directly",
 		Link: "tel:+63 963 3218 452",
@@ -44,6 +45,7 @@ const ContactApi = [
 	{
 		Id: 2,
 		Icon: "at",
+		IconType: "fas",
 		ContactTitle: "jcfababeir30@gmail.com",
 		Description: "Send me an email",
 		Link: "mailto:jcfababeir30@gmail.com",
@@ -52,6 +54,7 @@ const ContactApi = [
 	{
 		Id: 3,
 		Icon: "telegram",
+		IconType: "fab",
 		ContactTitle: "t.me/jcavenue",
 		Description: "Message me on Telegram",
 		Link: "https://t.me/jcavenue",
