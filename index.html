@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head prefix="og: https://ogp.me/ns#">
+		<!-- Required Metatags-->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>jcavenue - Personal Portfolio</title>
+		<meta name="description" content="jcavenue is created by John Carlo Fababeir, a web developer from the Phillippines to show case his talents in web development">
+		<meta name="author" content="John Carlo Fababeir">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="images/faveicon.png"/>
+		<!-- Social Media Preview -->
+		<meta property="og:title" content="jcavenue"/>
+		<meta name="image" property="og:image" content="./images/smp4.png"/>
+		<meta property="og:type"  content="Portfolio" />
+		<meta property="og:description" content="This is a Portfolio Website created by John Carlo Fababeir, a web developer from the Phillippines to show case his talents in web development"/>
+		<meta property="og:url" content="https://jcavenue.herokuapp.com/"/>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+		<!-- Bootstrap Icon-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+
+	</head>
+	<body>
+		<nav class="navbar shadow navbar-expand-lg navbar-light sticky-top font-heebo" id="navbar">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="images\jcavenue_transparent.png" alt="" width="150" height="40" class="d-inline-block align-text-top">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item ps-2">
+							<a class="nav-link" href="#aboutme">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+							<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+							</svg> About me</a>
+						</li>
+						<li class="nav-item ps-2">
+							<a class="nav-link" href="#Project">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trophy" viewBox="0 0 16 16">
+							<path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
+							</svg> Projects</a>
+						</li>
+						<li class="nav-item ps-2">
+							<a class="nav-link" href="#Contact">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+							<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+							</svg> Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row pt-5 ps-sm-auto">
+				<div class="col-md-8 col-sm-12 font-source-sans-pro text-justify" id="aboutme">
+					<h1 class="font-ubuntu tracking-in-expand-fwd">Hi! I"m JC</h1>
+					<p>I have got Bachelor’s degree in Computer Science and have done lots of other courses 
+					regarding this field. Work time has always been a pleasure time for me so I can assure you 
+					of not waste any time by not utilizing my job.</p>
+					<p>I have put professionalism in my passion and created some methods so that I can put them 
+					in some creative works. I also have certificates related to web development.</p>
+					<p>I got a profound knowledge of doing anything related to this platform. Also, I have got 
+					an impressive urgency of learning and gaining new skills and knowledge with total ease. I 
+					am skillful at programming and coding languages and other skills given below:</p>
+					<ul>
+						<li><span class="shadow badge bg-info text-dark">CSS/HTML</span></li>
+						<li><span class="shadow badge bg-info text-dark">PHP</span></li>
+						<li><span class="shadow badge bg-info text-dark">Javascript</span></li>
+						<li><span class="shadow badge bg-info text-dark">Bootstrap</span></li>
+						<li><span class="shadow badge bg-info text-dark">MySQL</span></li>
+						<li><span class="shadow badge bg-info text-dark">Postgresql</span></li>
+						<li><span class="shadow badge bg-info text-dark">Version Control</span></li>
+					</ul>
+					<p>If you think I’m worth the job or want to learn more about me, you can message me.</p>
+				</div>
+				<div class="col-md-4 col-sm-12 mx-auto text-center slide-in-elliptic-top-fwd">
+					<div class="card shadow h-100">
+						<img
+							src="images/logo.png"
+							class="card-img-top"
+							alt="JCAvenue Logo"
+						/>
+						<div class="card-body">
+							<p class="card-text text-center font-indie-flower">
+							“Believe passionately in what you do, and never knowingly compromise your standards and values.
+							Act like a true professional, aiming for true excellence, and the money will follow.”
+							</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">by David Maister</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="Project" class="container p-5 pt-3 mt-5 shadow bg-light">
+				<div class="row p-3">
+					<div class="col-12 font-heebo">
+					<h2>Project Portfolio</h2>
+				</div>
+				</div>
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+					<div class="col" id="card">
+						<div class="card shadow h-100">
+							<img
+								src="images/capstone_1.JPG"
+								class="card-img-top"
+								alt="Bootstrap Project"
+							/>
+							<div class="card-body">
+								<h5 class="card-title font-heebo">Bootstrap Project</h5>
+								<p class="card-text font-source-sans-pro">
+								Here is a Website that I created using Bootstrap 4 in
+								Coursera as a part of my Capstone Project and was created
+								last August 2020.
+								</p>
+							</div>
+							<div class="card-footer text-center">
+								<a href="https://fiellucas.github.io/BootstrapFrameworkProject/" target="_blank" class="text-info text-decoration-none"><small>Visit Website</small></a>
+							</div>
+						</div>
+					</div>
+					<div class="col" id="card">
+						<div class="card shadow h-100">
+						<img
+							src="images/capstone_2.JPG"
+							class="card-img-top"
+							alt="Deepsky Website"
+						/>
+						<div class="card-body">
+							<h5 class="card-title font-heebo">Restaurant Landing Page</h5>
+							<p class="card-text font-source-sans-pro">
+							This site is a sample landing page to show my skill in website design using wireframe.
+
+							</p>
+						</div>
+						<div class="card-footer text-center">
+								<a href="https://fiellucas.github.io/Capstone/" target="_blank" class="text-info text-decoration-none"><small>Visit Website</small></a>
+							</div>
+						</div>
+					</div>
+					<div class="col" id="card">
+						<div class="card shadow h-100">
+						<img
+							src="images/capstone_3.JPG"
+							class="card-img-top"
+							alt="crud"
+						/>
+						<div class="card-body">
+							<h5 class="card-title font-heebo">Resume Registry System</h5>
+							<p class="card-text font-source-sans-pro">
+							Simple CRUD application created using PHP and MySQL.
+							</p>
+						</div>
+						<div class="card-footer text-center">
+								<a href="http://resume-registry-system.000webhostapp.com/" target="_blank" class="text-info text-decoration-none"><small>Visit Website</small></a>
+							</div>
+						</div>
+					</div>
+					</div>
+
+		</div>
+		<footer class=" mt-5 p-3 text-center">
+			<div class="container-fluid" id="Contact">
+				<div class="row fs-4 p-3" >
+					<section class="text-decoration-none">
+						<a href="https://www.facebook.com/TemplarCoder" target="_blank" id="social" class="m-3"><i class="bi bi-facebook"></i></a>
+						<a href="https://github.com/jcavenue" target="_blank" id="social" class="m-3"><i class="bi bi-github"></i></a>
+						<a href="https://www.linkedin.com/in/jcavenue/"  target="_blank" id="social" class="m-3"><i class="bi bi-linkedin"></i></a>
+						<a href="mailto:jcfababeir30@gmail.com" id="social" class="m-3"><i class="bi bi-google"></i></a>
+					</section>
+				</div>
+				<div class="row font-heebo">
+					<p>&#169 2021 Copyright: <span class="fw-bolder">jcavenue</span></p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+	</body>
+</html>
