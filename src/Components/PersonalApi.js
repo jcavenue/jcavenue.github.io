@@ -40,7 +40,7 @@ const ContactApi = [
 		ContactTitle: "+63 963 3218 452",
 		Description: "Call me directly",
 		Link: "tel:+63 963 3218 452",
-		LinkText: "Call me directly"
+		LinkText: "CALL"
 	},
 	{
 		Id: 2,
