@@ -15,12 +15,12 @@ const AboutFeature = () => {
 							<MDBTypography variant='h1' className="fw-bold text-white text-center text-md-start"  style={{fontSize: '50px'}}>FRONT END</MDBTypography>
 							<MDBTypography variant='h1' className="fw-bold text-white text-center text-md-start pb-3"  style={{fontSize: '50px'}}>DEVELOPER</MDBTypography>
 							<div className='text-center text-md-start pb-3'>
-								<Link to="/Contact">
+								<Link to="/Contact" alt="link to Contact Page">
 									<MDBBtn  color='success'>
 										Contact me
 									</MDBBtn>
 								</Link>
-								<Link to="/Project" className="mx-2">
+								<Link to="/Project" alt="link to Project Page"className="mx-2">
 									<MDBBtn  color='dark'>
 										Project
 									</MDBBtn>
