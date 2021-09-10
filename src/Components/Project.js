@@ -36,7 +36,7 @@ const Project = () => {
 					{
 						ProjectApi.map((projects) => {
 								return (
-									<ProjectDetails key={projects} Project={projects}/>
+									<ProjectDetails key={projects.Id} Project={projects}/>
 							);
 						})
 					}

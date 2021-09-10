@@ -17,7 +17,7 @@ const ProjectDetails = (({Project}) => {
 					{
 						Project.Tools.map(Language => {
 							return (
-								<MDBBadge color="dark" className="mx-1 fw-normal">{Language}</MDBBadge>
+								<MDBBadge color="dark" key={Language} className="mx-1 fw-normal">{Language}</MDBBadge>
 							);
 						})
 					}

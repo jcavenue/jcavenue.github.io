@@ -38,8 +38,8 @@ const Contact = () => {
 					{
 						ContactApi.map(contact =>  {
 							return (
-								<MDBCol lg="4" className="mt-3">
-									<MDBCard alignment='center' key={contact.Id} className="shadow-0 square border">
+								<MDBCol lg="4" key={contact.Id} className="mt-3">
+									<MDBCard alignment='center'  className="shadow-0 square border">
 										<MDBCardBody>
 											<MDBIcon fab icon={contact.Icon} size="3x" className={`${contact.IconType}`}/>
 											<MDBCardTitle className="pt-3">{contact.ContactTitle}</MDBCardTitle>
