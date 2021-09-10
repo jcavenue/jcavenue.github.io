@@ -6,9 +6,9 @@ const App = () => {
     <>
 			<Header />
 			<Switch>
-				<Route exact path="/About" component={About} />
-				<Route exact path="/Project" component={Project} />
-				<Route exact path="/Contact" component={Contact} />
+				<Route path="/About" component={About} />
+				<Route path="/Project" component={Project} />
+				<Route path="/Contact" component={Contact} />
 				<Route exact path="/" component={Home} />
 			</Switch>
 			<Footer />
