@@ -26,7 +26,7 @@ const Contact = () => {
 				<MDBRow className="pt-5 text-center">
 					<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start">Get in touch</MDBTypography>
 					<p className="mb-5 lh-base fw-normal text-center text-md-start">
-						If you have any enquiries or something to discuss, Here are the few ways to reach out with me.
+						If you have any inquiries or something to discuss, Here are the few ways to reach out with me.
 					</p> 
 					<hr/>
 					<MDBBreadcrumb>
