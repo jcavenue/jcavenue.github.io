@@ -6,8 +6,7 @@ const ProjectDetails = (({Project}) => {
 		<MDBRow className="mt-4 pt-4">
 			<MDBCol xs="12"md="12" lg="5" className="text-center ">
 				<div className='bg-image hover-overlay  '>
-					<img src={Project.Img} alt="Website" className='img-fluid rounded' />	
-						<div className='mask rounded-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}></div>
+					<img src={Project.Img} alt="Website" className='img-fluid rounded' />
 				</div>
 			</MDBCol>	
 			<MDBCol md="12" lg="7"className="px-4 pt-4 pt-sm-2">
