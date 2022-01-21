@@ -1,6 +1,8 @@
 import Project1 from '../Assets/img/Website_1.png';
 import Project2 from '../Assets/img/Website_2.png';
 import Project3 from '../Assets/img/Website_3.png';
+import Project4 from '../Assets/img/Website_4.png';
+import Project5 from '../Assets/img/Website_5.png';
 
 const ProjectApi = [
 	{
@@ -30,20 +32,40 @@ const ProjectApi = [
 		Link: "http://resume-registry-system.000webhostapp.com/",
 		Img: Project3,
 	},
+	{
+		Id: 4,
+		Project: "SurPath Hub Hacktoberfest",
+		Create: "September 2021",
+		Tools: ["MDBBootstrap 5", "HTML", "CSS", "JavaScript"],
+		Description: "Registration Website for SurPath Hub Hacktoberfest Event 2021",
+		Link: "https://surpathhub.github.io/hacktoberfest-philippines",
+		Img: Project4,
+	},
+	{
+		Id: 5,
+		Project: "Simple Login-Signup Page",
+		Create: "October 2021",
+		Tools: ["MDBBootstrap 5", "HTML", "CSS", "JavaScript", "ReactJS", "react-router-dom", "localStorage"],
+		Description: "Simple Login and Registration page",
+		Link: "https://jcavenue.github.io/simple-registration-signin-page",
+		Img: Project5,
+	},
 ];
 
 const ContactApi = [
 	{
 		Id: 1,
 		Icon: "phone-alt",
+		IconType: "fas",
 		ContactTitle: "+63 963 3218 452",
 		Description: "Call me directly",
 		Link: "tel:+63 963 3218 452",
-		LinkText: "Call me directly"
+		LinkText: "CALL"
 	},
 	{
 		Id: 2,
 		Icon: "at",
+		IconType: "fas",
 		ContactTitle: "jcfababeir30@gmail.com",
 		Description: "Send me an email",
 		Link: "mailto:jcfababeir30@gmail.com",
@@ -52,6 +74,7 @@ const ContactApi = [
 	{
 		Id: 3,
 		Icon: "telegram",
+		IconType: "fab",
 		ContactTitle: "t.me/jcavenue",
 		Description: "Message me on Telegram",
 		Link: "https://t.me/jcavenue",

@@ -26,7 +26,7 @@ const Contact = () => {
 				<MDBRow className="pt-5 text-center">
 					<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start">Get in touch</MDBTypography>
 					<p className="mb-5 lh-base fw-normal text-center text-md-start">
-						If you have any enquiries or something to discuss, Here are the few ways to reach out with me.
+						If you have any inquiries or something to discuss, Here are the few ways to reach out with me.
 					</p> 
 					<hr/>
 					<MDBBreadcrumb>
@@ -38,11 +38,11 @@ const Contact = () => {
 					{
 						ContactApi.map(contact =>  {
 							return (
-								<MDBCol lg="4" className="mt-3">
-									<MDBCard alignment='center' key={contact.Id} className="shadow-0 square border">
+								<MDBCol lg="4" key={contact.Id} className="mt-3">
+									<MDBCard alignment='center'  className="shadow-0 square border">
 										<MDBCardBody>
-											<MDBIcon fab icon={contact.Icon} size="3x" className="pb-3"/>
-											<MDBCardTitle>{contact.ContactTitle}</MDBCardTitle>
+											<MDBIcon fab icon={contact.Icon} size="3x" className={`${contact.IconType}`}/>
+											<MDBCardTitle className="pt-3">{contact.ContactTitle}</MDBCardTitle>
 											<MDBCardText>{contact.Description}</MDBCardText>
 											<MDBBtn color="success" target="_blank" href={contact.Link}>{contact.LinkText}</MDBBtn>
 										</MDBCardBody>

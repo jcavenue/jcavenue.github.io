@@ -11,7 +11,7 @@ import {
   MDBCollapse,
 	MDBIcon
 } from 'mdb-react-ui-kit';
-import Logo from "../Assets/img/favicon.png";
+import Logo from "../Assets/img/logo.png";
 
 export default function Header() {
   const [showNav, setShowNav] = useState(false);
@@ -23,8 +23,8 @@ export default function Header() {
 					<MDBNavbarBrand tag={Link} to="/" className="fw-bold">
             <img
               src={Logo}
-              height='30'
-              alt=''
+              height='40' width='40'
+              alt='jcavenue logo'
               loading='lazy'
             />
 						JCAVENUE

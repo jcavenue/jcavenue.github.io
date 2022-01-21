@@ -24,12 +24,12 @@ const Home = () => {
 							
 							<p>
 								<Link to="/About">
-									<MDBBtn color='success'>Click Here</MDBBtn>
+									<MDBBtn className="bg-success">Visit About Page</MDBBtn>
 								</Link>
 							</p>
 						</MDBCol>
 						<MDBCol lg="7" xs="12" className='p-0'>
-							<img src={HomeBG} className='img-fluid' alt='...' />
+							<img src={HomeBG} className='img-fluid' alt='web development graphic' />
 						</MDBCol> 
 					</MDBRow>
 				</MDBContainer>
