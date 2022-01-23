@@ -26,6 +26,11 @@ const Home = () => {
 								<Link to="/About">
 									<MDBBtn className="bg-success">Visit About Page</MDBBtn>
 								</Link>
+								<a href="/resume/Fababeir_CV.pdf" alt="Download CV" className="mx-2" download="FababeirCV">
+									<MDBBtn  color='dark'>
+										DOWNLOAD MY CV
+									</MDBBtn>
+								</a>
 							</p>
 						</MDBCol>
 						<MDBCol lg="7" xs="12" className='p-0'>

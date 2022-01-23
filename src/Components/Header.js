@@ -33,7 +33,7 @@ export default function Header() {
 						type='button'
 						aria-expanded='false'
 						aria-label='Toggle navigation'
-						onClick={() => setShowNav(!showNav)}f
+						onClick={() => setShowNav(!showNav)}
 					>
 						<MDBIcon icon={showNav === false ? 'bars': "angle-up"} fas />
 					</MDBNavbarToggler>

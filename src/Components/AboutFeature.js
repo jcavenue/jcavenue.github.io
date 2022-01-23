@@ -12,8 +12,8 @@ const AboutFeature = () => {
 					<MDBRow className="mt-5">
 						<MDBCol lg="6">
 							<MDBTypography variant='h3' className="text-dark fw-bold text-center text-md-start">JOHN CARLO FABABEIR</MDBTypography>
-							<MDBTypography variant='h1' className="fw-bold text-white text-center text-md-start"  style={{fontSize: '50px'}}>FRONT END</MDBTypography>
-							<MDBTypography variant='h1' className="fw-bold text-white text-center text-md-start pb-3"  style={{fontSize: '50px'}}>DEVELOPER</MDBTypography>
+							<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start"  style={{fontSize: '50px'}}>FRONT END</MDBTypography>
+							<MDBTypography variant='h1' className="fw-bold text-dark text-center text-md-start pb-3"  style={{fontSize: '50px'}}>DEVELOPER</MDBTypography>
 							<div className='text-center text-md-start pb-3'>
 								<Link to="/Contact" alt="link to Contact Page">
 									<MDBBtn  color='success'>

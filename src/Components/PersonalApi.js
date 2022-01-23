@@ -6,7 +6,7 @@ import Project5 from '../Assets/img/Website_5.png';
 
 const ProjectApi = [
 	{
-		Id: 1,
+		Id: "P1",
 		Project: "Ristorante con Fusion",
 		Create: "August 2020",
 		Tools: ["Bootstrap 4", "HTML", "CSS"],
@@ -15,7 +15,7 @@ const ProjectApi = [
 		Img: Project1,
 	},
 	{
-		Id: 2,
+		Id: "P2",
 		Project: "Restaurant Landing Page",
 		Create: "December 2020",
 		Tools: ["Bootstrap 4", "HTML", "CSS"],
@@ -24,7 +24,7 @@ const ProjectApi = [
 		Img: Project2,
 	},
 	{
-		Id: 3,
+		Id: "P3",
 		Project: "Resume Registry System",
 		Create: "June 2021",
 		Tools: ["Bootstrap 5", "HTML", "CSS", "PHP", "JavaScript"],
@@ -33,7 +33,7 @@ const ProjectApi = [
 		Img: Project3,
 	},
 	{
-		Id: 4,
+		Id: "P4",
 		Project: "SurPath Hub Hacktoberfest",
 		Create: "September 2021",
 		Tools: ["MDBBootstrap 5", "HTML", "CSS", "JavaScript"],
@@ -42,7 +42,7 @@ const ProjectApi = [
 		Img: Project4,
 	},
 	{
-		Id: 5,
+		Id: "P5",
 		Project: "Simple Login-Signup Page",
 		Create: "October 2021",
 		Tools: ["MDBBootstrap 5", "HTML", "CSS", "JavaScript", "ReactJS", "react-router-dom", "localStorage"],
@@ -54,7 +54,7 @@ const ProjectApi = [
 
 const ContactApi = [
 	{
-		Id: 1,
+		Id: "C1",
 		Icon: "phone-alt",
 		IconType: "fas",
 		ContactTitle: "+63 963 3218 452",
@@ -63,7 +63,7 @@ const ContactApi = [
 		LinkText: "CALL"
 	},
 	{
-		Id: 2,
+		Id: "C2",
 		Icon: "at",
 		IconType: "fas",
 		ContactTitle: "jcfababeir30@gmail.com",
@@ -72,7 +72,7 @@ const ContactApi = [
 		LinkText: "EMAIL"
 	},
 	{
-		Id: 3,
+		Id: "C3",
 		Icon: "telegram",
 		IconType: "fab",
 		ContactTitle: "t.me/jcavenue",
@@ -82,7 +82,88 @@ const ContactApi = [
 	}
 ]
 
+const WorkExperienceApi = [
+	{
+		CollapseId: "accordionCollapse4",
+		HeaderTitle: "Software Quality Assurance Intern",
+		Company: "Achieve Without Borders",
+		Year: "October 2021 - Present",
+		Task: ["Perform Manual Testing","Create Test Automation Using Cypress","Execute Regression Testing","Create Test Scenario"]
+	},
+	{
+		CollapseId: "accordionCollapse3",
+		HeaderTitle: "Assistant Graphic Designer",
+		Company: "Kent Graphic Solution",
+		Year: "October 2018 - March 2019",
+		Task: ["Create Graphic Design for tarpaulin","Assisting in managing client's order","Work closely with the owner"]
+	},
+	{
+		CollapseId: "accordionCollapse2",
+		HeaderTitle: "Email Support Representative",
+		Company: "SPi CRM Inc, now INSPIRO",
+		Year: "April 2018 - August 2018",
+		Task: ["Customer Service","Email Support"]
+	},
+	{
+		CollapseId: "accordionCollapse1",
+		HeaderTitle: "Office Personel",
+		Company: "Traditional Food Corporation",
+		Year: "Jan 2016 - October 2016",
+		Task: ["Sorting files","Delivery Management"]
+	},
+]
+
+const LanguagesAndToolsApi = [
+	"HTML",
+	"CSS",
+	"Javascript",
+	"React JS",
+	"Redux",
+	"MySQL",
+	"PostgreSQL",
+	"PHP",
+	"Cypress",
+	"Version Control",
+	"Github/Gitlab"
+]
+
+const certificatesApi = [
+	{
+		id: "CER6",
+		link: "https://www.credly.com/badges/ce65709a-33d2-44cc-a517-988318433006",
+		c_name: "AWS Certified Cloud Practitioner" 
+	},
+	{
+		id: "CER5",
+		link: "https://www.coursera.org/account/accomplishments/specialization/certificate/3ZYGPNC72GE3",
+		c_name: "PostgreSQL for Everybody Specialization" 
+	},
+	{
+		id: "CER4",
+		link: "https://www.coursera.org/account/accomplishments/specialization/certificate/WJXSQCTL436W",
+		c_name: "Web Application for Everybody Specialization" 
+	},
+	{
+		id: "CER3",
+		link: "https://www.coursera.org/account/accomplishments/certificate/CBHFKKE8HL56",
+		c_name: "Version Control with Git" 
+	},
+	{
+		id: "CER2",
+		link: "https://www.coursera.org/account/accomplishments/certificate/RUHW9MK5782D",
+		c_name: "Front-End Web UI Frameworks and Tools: Bootstrap 4" 
+	},
+	{
+		id: "CER1",
+		link: "https://www.futurelearn.com/certificates/geih6gx",
+		c_name: "IT ETHICS: Professionalism and Ethics in Computing" 
+	}
+]
+
 export {
 	ProjectApi,
-	ContactApi
+	ContactApi,
+	WorkExperienceApi,
+	LanguagesAndToolsApi,
+	certificatesApi
 }
