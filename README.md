@@ -1,6 +1,6 @@
 # Jcavenue Portfolio
 
-This is my Portfolio Version 2.1.1 designed using:
+This is my Portfolio Version 2.2.0 designed using:
 * React 17
 * MDBootstrap
 * Google Fonts
