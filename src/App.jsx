@@ -1,10 +1,6 @@
 const App = () => {
-
-  return (
-    <>
-      Test React
-    </>
-  )
+  return <p className="underline text-[50px]">Test React</p>;
 }
+;
 
-export default App
+export default App;
