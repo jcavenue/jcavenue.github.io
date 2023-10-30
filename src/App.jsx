@@ -1,6 +1,4 @@
 const App = () => {
-  return <p className="underline text-[50px]">Test React</p>;
-}
-;
-
+  return <h1>Jc</h1>;
+};
 export default App;
